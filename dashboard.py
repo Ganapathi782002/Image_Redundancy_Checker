@@ -88,8 +88,8 @@ def main():
 
         # Image container
         st.markdown('<div class="image-container">', unsafe_allow_html=True)
-        st.image(image1, caption='Image 1', use_column_width=True, output_format='JPEG', format='JPEG')
-        st.image(image2, caption='Image 2', use_column_width=True, output_format='JPEG', format='JPEG')
+        st.image(image1, caption='Image 1', use_column_width=True, output_format='JPEG')
+        st.image(image2, caption='Image 2', use_column_width=True, output_format='JPEG')
         st.markdown("</div>", unsafe_allow_html=True)
 
         # Check for similarity
